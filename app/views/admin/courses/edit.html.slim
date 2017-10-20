@@ -1,0 +1,6 @@
+h1= "Add course #{@course.title} to students"
+
+= form_tag admin_course_path(@course), method: :put do
+  p= select_tag 'groups', options_from_collection_for_select(@roles, 'id', 'name'), include_blank: true
+  p= select_tag 'user', options_from_collection_for_select(@users, 'id', 'email'), include_blank: true
+  p= submit_tag 'Add course'

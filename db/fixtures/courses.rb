@@ -1,0 +1,13 @@
+Course.seed(:id,
+  { :id => 1, title: 'English', description: 'Cool Course' },
+  { :id => 2, title: 'Mathematic', description: 'Cool Course' },
+  { :id => 3, title: 'Russian', description: 'Cool Course' },
+  { :id => 4, title: 'Japan', description: 'Cool Course' },
+  { :id => 5, title: 'Phisics', description: 'Cool Course' },
+  { :id => 6, title: 'Economic', description: 'Cool Course' },
+  { :id => 7, title: 'Law', description: 'Cool Course' },
+  { :id => 8, title: 'Geology', description: 'Cool Course' },
+  { :id => 9, title: 'Ecology', description: 'Cool Course' },
+  { :id => 10, title: 'IT', description: 'Cool Course' },
+  { :id => 11, title: 'Ruby', description: 'Cool Course' },
+)
